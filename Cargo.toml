@@ -1,0 +1,8 @@
+[workspace]
+
+resolver = "2"
+
+members = [
+    "rpath-sys",
+    "rpath-demo",
+]
