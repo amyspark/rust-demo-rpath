@@ -1,2 +1,6 @@
 target
 rpath-meson/_build
+rpath-meson/librpath_meson.dylib.p
+.ninja*
+librpath_meson.dylib
+.vscode

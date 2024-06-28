@@ -1,0 +1,9 @@
+prefix=${pcfiledir}
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: rpath-meson
+Description: Meson sample project.
+Version: 0.1
+Libs: -L${prefix} -lrpath_meson
+Cflags: -I${prefix} -Wl,-rpath,${prefix}
